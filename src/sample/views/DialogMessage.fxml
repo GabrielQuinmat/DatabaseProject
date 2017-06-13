@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+<AnchorPane prefHeight="101.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.111"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.DialogController">
+    <padding>
+        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0"/>
+    </padding>
+    <children>
+        <TextFlow layoutX="16.0" layoutY="16.0" prefHeight="81.0" prefWidth="284.0" textAlignment="CENTER"
+                  AnchorPane.bottomAnchor="61.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0"
+                  AnchorPane.topAnchor="8.0">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+            </padding>
+            <children>
+                <Text fx:id="textDialog" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER">
+                    <font>
+                        <Font name="Mongolian Baiti" size="14.0"/>
+                    </font>
+                </Text>
+            </children>
+        </TextFlow>
+    </children>
+</AnchorPane>
